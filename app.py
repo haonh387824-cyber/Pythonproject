@@ -100,3 +100,13 @@ for bar in bars:
     ax.text(bar.get_x() + bar.get_width()/2, yval + 0.15, f'{yval}', ha='center', va='bottom', fontsize=8)
 
 st.pyplot(fig)
+
+st.divider()
+st.markdown(
+    """
+    <p style='text-align: center; font-size: 12px; color: gray;'>
+        Ứng dụng được phát triển bởi: Nguyễn Hoàng Hào - MSSV: 038208007824
+    </p>
+    """, 
+    unsafe_allow_html=True
+)
